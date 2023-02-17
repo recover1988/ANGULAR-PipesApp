@@ -1,6 +1,8 @@
 <div class="text-layout">
   <h1>Hola mundo {{ nombre | titlecase }}</h1>
   <h2>{{ valor | number }}</h2>
+  <h2>{{ obj | json }}</h2>
+  <h2>{{ nombre | uppercase }}</h2>
 </div>
 
 <button
@@ -12,3 +14,9 @@
   iconPos="right"
   class="p-button-help"
 ></button>
+<p-card [header]="nombre | titlecase" subheader="Esto es un subheader">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
+  consequuntur error repudiandae numquam deserunt quisquam repellat libero
+  asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+  neque quas!
+</p-card>
