@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class NoComunesComponent {
 
+  nombre: string = 'Fernando';
+  genero: string = 'masculino';
+  invitacionMapa = {
+    masculino: "invitarlo",
+    femenino: 'invitarla',
+  }
 }
