@@ -1,5 +1,14 @@
 # Pipes
 
+En esta aplicacion usaremos los pipes de angular:
+```
+lowercase
+uppercase
+date
+titlecase
+
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
 ## Development server
