@@ -1,1 +1,22 @@
-<p>ordenar works!</p>
+<div class="text-layout">
+  <h1>Pipes Personalizados</h1>
+  <p>Pipes creado por nosotros</p>
+</div>
+
+<div class="grid">
+  <div class="col-6">
+    <p-card header="Pipe personalizado" subheader="Mayusculas">
+      <b>"Esta es una oracion de Prueba"</b>
+      <pre>{{
+        "Esta es una oracion de Prueba" | mayusculas : enMayusculas
+      }}</pre>
+      <button
+        pButton
+        pRipple
+        class="p-button-help"
+        label="Toggle Mayusculas"
+        (click)="cambiar()"
+      ></button>
+    </p-card>
+  </div>
+</div>
