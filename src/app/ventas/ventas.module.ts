@@ -9,6 +9,7 @@ import { BasicosComponent } from './pages/basicos/basicos.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 import { MayusculasPipes } from './pipes/mayusculas.pipe';
 import { VuelaPipe } from './pipes/vuela.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
 
 
 
@@ -20,6 +21,7 @@ import { VuelaPipe } from './pipes/vuela.pipe';
     OrdenarComponent,
     MayusculasPipes,
     VuelaPipe,
+    OrdenarPipe,
   ],
   imports: [
     CommonModule,
