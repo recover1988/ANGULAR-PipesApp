@@ -17,17 +17,17 @@ export class OrdenarComponent {
     },
     {
       nombre: 'Batman',
-      vuela: true,
+      vuela: false,
       color: Color.negro
     },
     {
       nombre: 'Flash',
-      vuela: true,
+      vuela: false,
       color: Color.rojo
     },
     {
       nombre: 'Aquaman',
-      vuela: true,
+      vuela: false,
       color: Color.amarillo
     },
     {
